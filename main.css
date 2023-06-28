@@ -1,0 +1,816 @@
+@font-face{
+    font-family: 'Poppins-Medium';
+    src: url(./assets/fonts/Poppins/Poppins-Medium.ttf)
+}
+body{
+    margin:0px;
+}
+* { 
+    box-sizing: border-box;
+    font-family: 'Poppins-Medium';
+}
+.wrapper{
+    width: 1920px;
+    /* height: 1797px; */
+    background-image:
+            url(./assets/img/background-top.svg),
+            url(./assets/img/background-middle.png),
+            url(./assets/img/background-bottom.svg);
+        background-size: 100%, 71%, 18%;
+        background-repeat: no-repeat;
+        background-position: top left, 49% 61%, 96% 99.5%;
+}
+
+
+/* header */
+
+
+header{
+    width: 100%;
+    height: 4.6%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-one{
+    width: 69%;
+    height:65px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display:flex;
+    align-items: center;
+}
+header nav{
+    width:667px;
+    height: 24px;
+    display:flex;
+    justify-content: space-between;
+}
+header p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+header nav a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.login-button{
+    width: 160px;
+    height: 56px;
+    background: #FFC814;
+    border-radius: 4px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1F3347;
+    margin-left: 27px;
+    cursor: pointer;
+}
+.login-button:active{
+        border: 1px solid black;
+    }
+
+    
+/* main */
+
+
+main{
+    height:87%;
+}
+
+/* section 1 */
+
+
+.section-first{
+    margin-bottom: 190px;
+}
+.container-two{
+    margin-left: 300px;
+}
+.section-first h1{
+    width: 30%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin: 128px 0px 18px 0px;
+}
+.section-first p{
+    width: 35%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0px 0px 40px 0px;
+}
+.section-first button:first-child{
+    width: 160px;
+    /* height: 60.15px; */
+    background: #FFC814;
+    border-radius: 4px;
+    border:none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22283C;
+    margin-right:20px;
+    cursor: pointer;
+}
+.section-first button:last-child{
+    width: 160px;
+    /* height: 60.15px; */
+    background: #FFFDFD;
+    border-radius: 4px;
+    border:none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181818;
+    cursor: pointer;
+}
+.section-first button:active{
+        border: 1px solid black;
+}
+
+/* section 2 */
+
+
+.container-three{
+    margin: 0px 0px 85px 300px;
+}
+.section-second .transport{
+    width: 510px;
+    height:49px;
+    display:flex;
+    justify-content: space-between;
+}
+.transport-means{
+    width: 120px;
+    height: 49px;
+    background: #FFFFFF;
+    border-radius: 4px 4px 0px 0px;
+    display:flex;
+    align-items: center;
+}
+.transport-means img{
+    margin:0px 10px
+}
+.transport-means:active{
+    background: #FFC814;
+}
+.section-second .block{
+    width: 81%;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 24px #E4E2EE;
+    display:flex;
+    align-items:center;
+    padding: 0px 30px;
+}
+.section-second .booking{
+    width: 170px;
+    height: 93px;
+    margin: 30px 24px;
+}
+.section-second .booking:nth-child(5){
+    margin-right: 34px;
+}
+.section-second .booking p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F3347;
+    margin:0px 0px 8px 0px;
+}
+.section-second .booking .booking-details{
+    width: 170px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 24px #E4E2EE;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #70717B;
+    padding: 22px 0px 0px 10px;
+}
+.section-second .block input{
+    width: 160px;
+    height: 60px;
+    background: #FFC814;
+    box-shadow: 0px 6px 24px rgba(255, 200, 20, 0.4);
+    border-radius: 4px;
+    border:none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22283C;
+    margin-top: 32px;
+    cursor:pointer;
+}
+.section-second input:active{
+    border: 1px solid black;
+}
+
+
+/* section 3 */
+
+
+.container-four{
+    margin: 0px 0px 100px 277px;
+    width: 71%;
+    display:flex;
+    justify-content:  space-between;
+    align-items: center;
+}
+.container-four .left-part{
+    min-width:52%;
+    height: 622px;
+}
+/* .container-four .left-part .travel-photos-one{
+    width: 458px;
+    height: 610px;
+    filter: drop-shadow(0px 6px 24px #E4E2EE);
+    border-radius: 14px;
+} */
+/* .travel-photos-one img:first-child {
+    width: 458px;
+    height: 610px;
+} */
+/* .container-four .left-part .travel-photos-two{
+    width: 314px;
+    filter: drop-shadow(0px 6px 24px #E4E2EE);
+    border-radius: 14px;
+    position:relative;
+    left: 315px;
+    bottom: 289px;
+} */
+.container-four .left-part img:first-child {
+    width: 458px;
+    height: 610px;
+    filter: drop-shadow(0px 6px 24px #E4E2EE);
+    border-radius: 14px;
+}
+.container-four .left-part img:last-child {
+    width: 314px;
+    filter: drop-shadow(0px 6px 24px #E4E2EE);
+    border-radius: 14px;
+    position: relative;
+    left: 315px;
+    bottom: 289px;
+}
+
+
+
+.travel-photos-two img{
+    width: 314px;
+    height: 300px;
+}
+.container-four .right-part{
+    width:48%;
+    height: 589px;
+}
+.container-four .right-part h3{
+    height: 105px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #1F3347;
+    margin:0px 0px 31px 0px;
+}
+.container-four .right-part .about-company{
+    width: 82%;
+    height: 77.34px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9DA1B4;
+    margin:0px 0px 21px 0px;
+}
+.container-four .right-part .list{
+    display:flex;
+    align-items:center;
+    margin:0px 0px 37px 0px;
+}
+.container-four .right-part .list img{
+}
+.text-for-list{
+    width: 90%;
+    height: 116px;
+}
+.text-for-list p{
+    margin: 0px 0px 0px 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #9DA1B4;
+}
+.company-info{
+    display:flex;
+    margin-bottom: 32px;
+}
+.brief-info{
+    margin-right:102px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9DA1B4;
+}
+span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+    color: #FFC814;
+}
+.container-four .right-part button{
+    width: 160px;
+    height: 60.15px;
+    background: #FFC814;
+    border-radius: 4px;
+    border:none;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1F3347;
+    cursor:pointer;
+}
+.container-four button:active{
+    border: 25% solid black;
+}
+
+
+/* footer */
+
+
+footer{
+    background-color: #22283C;
+    height: 8.1%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    width: 69%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+footer p:first-child{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 24px;
+}
+footer nav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* 1280 px – PC */
+
+
+@media (max-width:1280px){
+    header{
+        width:100%;
+    }
+    header nav{
+        width: 440px;
+    }
+    footer, main {
+        width:100%;
+    }
+    .wrapper{
+        width:100%;
+    }
+    .container-one,.container-two,.container-three, .container-four {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .container-three{
+        margin-bottom:40px;
+    }
+    .container-four {
+        margin-bottom: 40px;
+    }
+    .wrapper {
+    }
+    .section-first{
+        margin-bottom: 57px;
+    }
+    .section-second .block{
+        flex-wrap: wrap;
+    }
+    .wrapper {
+        background-size:100%,75%,14%;;
+        background-position: top left, -11% 58%, 98% 93.5%;
+    }
+    .brief-info {
+        margin-right:40px;
+    }
+    .travel-photos-one img {
+        /* width: 431px;
+        height: 738px; */
+    }
+    .section-first h1 {
+        width: 47%;
+        margin: 3px 0px 18px 0px;
+    }
+    .section-second .block {
+        padding-bottom: 1%;
+        width: 76%;}
+    .section-second .booking {
+
+        margin: 15px 24px 18px 0;
+    }
+    }
+
+
+
+/* 1024 px – планшети (альбомна орієнтація) */
+
+
+@media (max-width:1024px){
+    .section-first h1 {
+        margin: 1px 0px 18px 0px;
+    }
+
+    .text-for-list p {
+        font-size: 13px;
+    }
+
+    .wrapper {
+        background-size: 100%, 58%, 11%;
+        background-position: top left, 2% 57%, 99% 93.5%;
+    }
+    .container-four .left-part .travel-photos-two {
+        /* left: 210px; */
+    }
+
+    .container-four .left-part img:first-child {
+        width: 57%;
+        height: 69%;
+    }
+    .container-four .left-part img:last-child {
+        width: 44%;
+        position: relative;
+        left: 40%;
+        bottom: 32%;
+    }
+    .container-four .left-part {
+        width: 40%;
+    }
+    .container-four .right-part {
+        width: 60%;
+    }
+    .container-four {
+        width: 94%;
+    }
+    }
+
+
+ /* 768 px – планшети (портретна орієнтація) */
+
+
+@media (max-width:768px) {
+    .container-four {
+    /* display: block; */
+    }
+
+    header p {
+        font-size: 30px;
+    }
+
+    .section-first h1 {
+        font-size: 40px;
+        width: 62%;
+    }
+
+    .section-first p {
+        font-size: 14px;
+    }
+
+    .section-first p {
+        width: 66%;
+    }
+
+    .section-first h1 {
+        margin: 1px 0px 18px 0px;
+    }
+    .section-second .block {
+        width: 66%;
+    }
+    .wrapper{
+        background-position: top left, 15% 57%, 99% 93.5%;
+    }
+    .container-four .right-part h3 {
+        font-size: 139%;
+        margin: 0px 0px 0px 0px;
+    }
+    .container-four .right-part .about-company {
+        width: 82%;
+        font-size: 73%;
+    }
+    .text-for-list p {
+        font-size: 71%;
+    }
+}
+
+
+/* 600 px – невеликі планшети */
+
+@media (max-width:600px){
+    .wrapper{
+        background-size: 100%, 58%, 31%;
+        background-position: top left, 18% 39.5%, 99% 93.5%
+    }
+    .container-one{
+        display:block;
+    }
+    header p {
+        margin: 5px 0 0 0;
+    }
+    .login-button {
+        width: 17%;
+    }
+    .section-first h1 {
+        font-size: 235%;
+        width: 80%;
+        margin:3% 0 0 0;
+    }
+    .section-first p {
+        width: 90%;
+        margin:0px;
+    }
+    .section-second .block {
+        width: 81%;
+    }
+    .container-four .right-part .list img {
+        width:79%;
+    }
+    .container-four {
+        display: block;
+    }
+    .container-four .left-part {
+        width: 95%;
+    }
+    .container-four .left-part img:first-child {
+        width: 77%;
+    }
+    .container-four .left-part img:last-child {
+        width: 46%;
+        left:34%;
+        bottom: 19%;
+    }
+    .container-three {
+        margin-bottom: 10%;
+    }
+    .container-four .right-part .list img {
+        width: 89%;
+    }
+    .text-for-list p {
+        font-size: 56%;
+    }
+    .container-four .right-part .about-company {
+        width: 137%;
+    }
+    .copyright p {
+        width: 33%;
+        font-size: 61%;
+    }
+    .copyright p:first-child{
+        width: 33%;
+        font-size: 146%;
+        text-align: center;
+    }
+    .copyright nav {
+        width: 33%;
+        font-size: 73%;
+        text-align: center;
+}
+}
+
+
+/* 480 px – мобільний пристрій (альбомна орієнтація) */
+
+
+@media (max-width:480px) {
+        
+    header nav a {
+        font-size: 57%;
+    }
+    .login-button{
+        width: 12%;
+        font-size: 55%;
+        height:12%;
+    }
+    .section-first button:first-child, .section-first button:last-child {
+        width: 18%;
+        font-size: 55%;
+        /* height:12%; */
+    }
+    .section-first h1 {
+        font-size: 67%;
+        width: 50%;
+        margin: 0px;
+    }
+    .section-first p {
+        width: 100%;
+        font-size: 67%;
+    }
+    .section-second .container-three .transport .transport-means img{
+        width: 12%;
+    }
+    .section-second .container-three .transport .transport-means {
+        font-size: 65%;
+    }
+    .section-second .transport {
+        width: 60%;
+    }
+    .section-second .booking {
+        width: 25%;
+    }
+    .section-second .booking p{
+        font-size: 55%;
+    }
+    .section-second .booking .booking-details{
+        width: 75%;
+        font-size: 55%;
+    }
+    .section-second .booking:nth-child(5) {
+        margin-right: 7%;
+    }
+    .section-second .block input{
+        width: 35%;
+    }
+    .container-four .right-part h3 {
+        font-size: 132%;
+    }
+    .text-for-list p {
+        font-size: 46%;
+    }
+    .wrapper {
+        background-size: 100%, 58%, 29%;
+        background-position: top left, 18% 31%, 98% 95.5%;
+    }
+    .copyright p {
+        font-size: 45%;
+    }
+}
+
+
+ /* 320 px – мобільний пристрій (портретна орієнтація) */
+
+
+@media (max-width:320px) {
+    .wrapper {
+        background-size: cover;
+        }
+    .container-one {
+        display: flex;
+    }
+    header p {
+        font-size: 55%;
+        margin:0px;
+    }
+    header nav a {
+        font-size: 38%;
+    }
+    header nav {
+        width: 100%;
+    }
+    .login-button {
+        width: 21%;
+        font-size: 5%;
+        height: 12%;
+        margin:7px;
+    }
+    .links {
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+    .section-first h1 {
+        font-size: 81%;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .section-first p {
+        width: 100%;
+        font-size: 67%;
+    }
+    .section-first button:first-child,
+    .section-first button:last-child {
+        width: 26%;
+        font-size: 55%;
+        /* height: 12%; */
+    }
+    .section-second .container-three .transport .transport-means img {
+        width: 18%;
+    }
+    .section-second .container-three .transport {
+        width: 91%;
+    }
+    .section-second .block {
+        width: 100%;
+        padding:15px;
+    }
+    .section-second .booking {
+        width: 31%;
+        margin: 1px 0px;
+    }
+    .section-second .block input {
+        width: 30%;
+        font-size: 68%;
+        height: 22%;
+    }
+    .section-second .booking .booking-details {
+        width: 71%;
+        font-size: 55%;
+    }
+    .section-second .booking:nth-child(5) {
+        margin-right: 0%;
+    }
+    .container-four .right-part h3 {
+        font-size: 88%;
+    }
+    .container-four .right-part .about-company {
+        width: 175%;
+        color:white;
+    }
+    .text-for-list p {
+        font-size: 47%;
+        width: 145%;
+        color: white;   
+    }
+    .brief-info {
+        margin-right: 11%;
+        color: white;
+        font-size: 70%;
+    }
+    .brief-info span{
+        width: 120%;
+    }
+    .container-four .right-part button {
+        width: 55%;
+        height: 8%;
+    }
+    .container-four .left-part img:first-child {
+        width: 90%;
+    }
+    .container-four .left-part img:last-child {
+        width: 70%;
+        left: 35%;
+        bottom: 18%;
+    }
+    .copyright p:first-child {
+        font-size: 82%;
+    }
+    .copyright p {
+        font-size: 30%;
+    }
+    .copyright nav {
+        font-size: 49%;
+    }
+}
+
+
